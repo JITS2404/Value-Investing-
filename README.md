@@ -46,3 +46,33 @@ Understanding of Economic Moats
 Contrarian Decision-Making (ability to buy when others are fearful)
 
 Capital Preservation Mindset
+
+**How to Run
+
+Step1:Clone this repository
+
+            git clone https://github.com/<your-username>/value-investing.git
+
+Step2:Navigate to the project folder
+
+            cd value-investing
+
+Step3:Create and activate a virtual environment (recommended)
+
+            python -m venv venv
+            source venv/bin/activate     (For Mac/Linux)  
+            venv\Scripts\activate        (For Windows)
+
+Step4:Install dependencies
+
+           pip install -r requirements.txt
+
+Step5:Run the script
+
+           python value_investing.py
+
+Step6:View results
+
+Console will display selected undervalued stocks (based on P/E, P/B, or other filters).
+
+Portfolio backtest results and graphs will be saved in the outputs/ folder.
